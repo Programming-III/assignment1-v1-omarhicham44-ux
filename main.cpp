@@ -173,9 +173,9 @@ void  Animal::display()
 void Animal ::feed()
 {
 	if (isHungry == true)
-		cout << "animal is hungry";
+		cout << "hungry";
 	else
-		cout << "animal is full";
+		cout << "Not hungry";
 }
 Animal::Animal()
 {
