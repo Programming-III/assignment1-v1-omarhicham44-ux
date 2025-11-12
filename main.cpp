@@ -218,11 +218,11 @@ bool GetHungry() {
 int main() {
     
     Animal* a[10];
-Enclosure e = Enclosure(a; 10; 38);	
+Enclosure e = Enclosure(a; 1; 1);	
 Mammal m = Mammal("Lion"; 5; true; "Golden");	
-Bird b = Bird("Parrot"; 3; false; 2.5);	
-Reptile r = Reptile("Snake"; 7; true; true);	
-Visitor v = Visitor("Omar hicham"; 9);
+Bird b = Bird("Parrot"; 2; false; 2.5);	
+Reptile r = Reptile("Snake"; 3; true; true);	
+Visitor v = Visitor("Sarah ali "; 3);
 m.display();
 b.display();
 r.display();
